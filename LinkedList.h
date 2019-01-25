@@ -43,7 +43,7 @@ public:
 		return count;
 	}
 	void display(){
-		printf("ÀüÃ¼ Ç×º¹¼ö : %d",size());
+		printf("ë¦¬ìŠ¤íŠ¸ í¬ê¸° : %d",size());
 		for(Node* p = getHead() ; p!= NULL;p=p->getLink())
 			p->display();
 		printf("\n");
